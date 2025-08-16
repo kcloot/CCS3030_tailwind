@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>K's Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  <style>
+    .moon-backdrop {
+      position: fixed;
+      inset: 0;
+      background: radial-gradient(circle at top, #0f0f0f, #000);
+      z-index: -1;
+    }
+  </style>
+</head>
+<body class="text-white font-sans bg-black">
+
+  <div class="moon-backdrop"></div>
+
+  <header class="text-center py-6 border-b border-red-800">
+    <h1 class="text-4xl font-bold text-red-600">K's Portfolio</h1>
+    <nav class="mt-4">
+      <ul class="flex justify-center gap-6 text-sm text-gray-300">
+        <li><a href="#intro" class="hover:text-red-500">Intro</a></li>
+        <li><a href="#about" class="hover:text-red-500">About</a></li>
+        <li><a href="#work" class="hover:text-red-500">Work</a></li>
+        <li><a href="#contact" class="hover:text-red-500">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="intro" class="max-w-3xl mx-auto px-4 py-12 text-center">
+    <h2 class="text-2xl font-semibold text-red-500">Hi, I'm Kristine Cassandra D. Loot</h2>
+    <p class="mt-4 text-gray-400">I'm a BSIT student who likes tweaking with computer related stuffs. I also like listening to music and my style is mostly y2k or just minimal in a good way.</p>
+    <a href="#" class="inline-block mt-6 px-6 py-2 bg-red-600 hover:bg-red-700 rounded-full text-white">Download CV</a>
+  </section>
+
+  <section id="about" class="max-w-3xl mx-auto px-4 py-12 text-center">
+    <h2 class="text-2xl font-semibold text-red-500">About Me</h2>
+    <p class="mt-4 text-gray-400">I enjoy working with HTML, CSS for now. I like customizing designs and learning by doing. Most of my projects are built from scratch and reflect my own style.</p>
+  </section>
+
+  <section id="work" class="max-w-3xl mx-auto px-4 py-12 text-center">
+    <h2 class="text-2xl font-semibold text-red-500">My Work</h2>
+    <ul class="mt-4 space-y-2 text-gray-300">
+      <li>Personal Portfolio Website</li>
+      <li>Tailwind Layout Experiments</li>
+      <li>Simple Blog Page</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="max-w-3xl mx-auto px-4 py-12 text-center">
+    <h2 class="text-2xl font-semibold text-red-500">Contact Me</h2>
+    <p class="mt-4 text-gray-400">If you want to work together or ask something, feel free to message me or contact me in any of my connections, I will try my best.</p>
+    <a href="#" class="inline-block mt-6 px-6 py-2 bg-red-600 hover:bg-red-700 rounded-full text-white">Email Me</a>
+  </section>
+
+  <footer class="text-center py-6 border-t border-red-800">
+    <div class="flex justify-center gap-6 text-xl text-gray-400 mb-4">
+      <a href="#"><i class="ph-bold ph-instagram-logo hover:text-red-500"></i></a>
+      <a href="#"><i class="ph-bold ph-github-logo hover:text-red-500"></i></a>
+      <a href="#"><i class="ph-bold ph-facebook-logo hover:text-red-500"></i></a>
+    </div>
+    <p class="text-sm text-gray-500">© 2025 K.</p>
+  </footer>
+
+</body>
+</html>
